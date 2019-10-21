@@ -1,5 +1,10 @@
 import React from "react";
 import "./App.css";
+import ReactDOM from "react-dom";
+import Number from "./components/ButtonComponents/NumberButtons/Numbers";
+import Operator from "./components/ButtonComponents/OperatorButtons/Operators";
+import Special from "./components/ButtonComponents/SpecialButtons/Specials";
+import Display from "./components/DisplayComponents/Display";
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
 
@@ -18,9 +23,19 @@ function App() {
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+      
+        <Display />
+        <Special />
+        <Operator />
+        <Number />
+        
+        
+        
       </div>
     </div>
   );
 }
 
 export default App;
+const rootElement = document.getElementById("root");
+ReactDOM.render( < App/> , rootElement);
