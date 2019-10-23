@@ -16,13 +16,16 @@ const Operators = () => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
 
-  {operators.map((oper) => {
+  {operators.map((oper,index) => {
     
-  return <OperatorButton oper={oper["char"]} key = {oper["char"]} />
+  return <OperatorButton oper={oper} key = {index} />
     })}
     </div>
     
   );
+ 
 };
+
+ 
 
 export default Operators;
