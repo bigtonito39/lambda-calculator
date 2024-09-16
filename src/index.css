@@ -10,3 +10,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.display{
+  color:white;
+  
+  margin-left:4%;
+}
+.logo-container{
+  margin-top:5%;
+  margin-left:4%;
+}
+
+.SpecialButton{
+background-color:#0473BA;
+border-radius: 50px;
+color: white;
+border: solid black 1px;
+border-bottom:solid black 3px;
+padding: 6.5%;
+font-size:1.5rem;
+width: 22%;
+margin:2%;
+margin-left:8.8%;
+margin-top:4%;
+}
+
+.SpecialDiv{
+  width:80%;
+ 
+  margin-left:2.5%;
+}
+
+.Divider{
+  display:flex;
+  width:95%;
+  
+  
+  
+}
+
+.NumberButton{
+  background-color:#074770;
+  border-radius: 50px;
+  color: white;
+  border: solid black 0.5px;
+  border-bottom: solid black 2px;
+  padding: 8%;
+  font-size:1.5rem;
+  width: 25%;
+  margin: 2.8% 2.5%;
+  
+}
+.NumberDiv{
+  
+  width:70%;
+  margin-left:5%;
+  
+}
+.OperatorDiv {
+  
+width:30%;
+height:100%;
+
+  
+}
+
+.OperatorButton{
+  display:flex;
+  flex-direction: column;
+  background-color:#32B0CE;
+  border-radius: 100px;
+  color: white;
+  border: solid black 0.5px;
+  border-bottom: solid black 3.5px;
+  padding:18%;
+  font-size:1rem;
+  width: 54%;
+  margin-top: 4.5%;
+  
+  
+}
